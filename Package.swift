@@ -19,7 +19,7 @@ let package = Package(
         // so both packages are always pinned to the same version.
         .package(
             url: "https://github.com/MoneyHash/Moneyhash-Shared-CP",
-            exact: "4.2.2"
+            exact: "4.2.3"
         )
     ],
     targets: [
@@ -34,8 +34,8 @@ let package = Package(
         // `MoneyHash-cocoapods.xcframework.zip` asset of the mobile-one release.
         .binaryTarget(
             name: "MoneyHash",
-            url: "https://github.com/MoneyHash/Moneyhash-CP/releases/download/4.2.2/MoneyHash.xcframework.zip",
-            checksum: "aebfc997a34105e63dc29cb4fe9876db701185ab93f10ade651618bfe380c74b"
+            url: "https://github.com/MoneyHash/Moneyhash-CP/releases/download/4.2.3/MoneyHash.xcframework.zip",
+            checksum: "69f5d0a45dd2f3dec4e525e8a92a326968d78f27d76a080352d96f0fd0bed8d5"
         )
     ]
 )
